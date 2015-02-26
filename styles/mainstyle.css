@@ -1,13 +1,12 @@
 header {
 	background-image: url("/assets/headerbgcut.jpg");
 	position: relative;
+	background-position: center;
 	height: 700px;
 	border-top: solid;
 	background-repeat: no-repeat;
 	border-color: #ACDEA3;
 	border-width: 5px;
-	transform-origin: 50% 50%;
-	-webkit-transform-origin: 50% 50%;
 }
 
 .subhead {
@@ -17,6 +16,7 @@ header {
 	color: white;
 	text-align: center;
 	margin-top: 250px;
+	margin-bottom: -75px;
 }
 
 .noobH {
@@ -29,7 +29,6 @@ header {
 	font-weight: 700;
 	color: white;
 	text-align: center;
-	margin-top: 50px;
 }
 
 
