@@ -19,7 +19,7 @@ header {
 	margin-bottom: -75px;
 }
 
-.noobH {
+.greenP {
 	color: #ACDEA3;
 }
 
@@ -48,7 +48,7 @@ nav li {
 	margin: 15px;
 }
 
-a {
+nav a {
 	text-decoration: none;
 	color: white;
 	padding: 10px 20px 10px 20px;
@@ -56,7 +56,7 @@ a {
 	border-color: white;
 }
 
-a:hover {
+nav a:hover {
 	background: white;
 	color: black;
 }
@@ -72,9 +72,39 @@ h2 {
 }
 
 .content {
-	margin: 150px 550px 0 550px;
+	margin: 250px 600px 0 600px;
 	text-align: center;
-	line-height: 2.5;
+	line-height: 2;
+	font-style: PT Sans;
+}
+
+#about p > .strike {
+	font-style: italic;
+	text-decoration: line-through;
+}
+
+#about div > img {
+	height: 30%;
+	width: 30%;
+	text-align: center;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	margin: 25px;
+}
+
+.socialmedia li {
+	display: inline;
+	font-family: PT Sans;
+	font-size: 40px;
+}
+
+.socialmedia li a {
+	color: grey;
+}
+
+.socialmedia li a:hover {
+	color: black;
 }
 
 hr {
