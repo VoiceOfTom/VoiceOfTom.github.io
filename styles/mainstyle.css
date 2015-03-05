@@ -72,7 +72,7 @@ h2 {
 }
 
 .content {
-	margin: 250px 600px 0 600px;
+	margin: 100px 600px 0 600px;
 	text-align: center;
 	line-height: 2;
 	font-style: PT Sans;
@@ -93,21 +93,42 @@ h2 {
 	margin: 25px;
 }
 
-.socialmedia li {
+.socialmedia {
+	text-align: center;
+}
+
+.socialmedia ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.socialmedia ul li {
 	display: inline;
 	font-family: PT Sans;
-	font-size: 40px;
+	font-size: 100px;
+	padding: 10px;
+
 }
 
-.socialmedia li a {
-	color: grey;
+.socialmedia ul li a {
+	color: #ACDEA3;
+	text-decoration: none;
 }
 
-.socialmedia li a:hover {
-	color: black;
+.socialmedia-parent:hover > li {
+	opacity: 0.3;
+}
+
+.socialmedia-parent:hover > li:hover {
+	opacity: 1.0;
 }
 
 hr {
 	margin: 75px 0;
 	border-color: #ACDEA3;
+	opacity: 0.7;
+}
+
+#resume hr {
+	opacity: 0.2;
 }
